@@ -4,7 +4,6 @@
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
-4. [Collaboration](#collaboration)
 ### General Info
 ***
 This project was a student project at the Budapest University of Technology and Economics, Hungary. This project integrates post-quantum algorithms into the OpenSSL library. It currently integrates three algorithms:
