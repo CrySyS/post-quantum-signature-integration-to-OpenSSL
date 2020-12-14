@@ -4,6 +4,7 @@
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
+4. [How to use](#howtouse)
 ### General Info
 ***
 This project was a student project at the Budapest University of Technology and Economics, Hungary. This project integrates post-quantum algorithms into the OpenSSL library. It currently integrates three algorithms:
@@ -40,3 +41,13 @@ After these steps only needs to import this modified OpenSSL library and import 
 #include <openssl/falcon.h>
 ```
 Side information: There are side scripts that are for help the integration and further development. These also free to use and modify.
+## How to use
+***
+The use of these algorithms are similar to RSA implementation in OpenSSL library, they use those conventions. For example:
+```
+FALCON_new(...)
+FALCON_generate_key(...)
+FALCON_sign(...)
+FALCON_verify(...)
+etc.
+```
