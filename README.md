@@ -7,12 +7,10 @@
 4. [How to use](#howtouse)
 ### General Info
 ***
-This project was a student project at the Budapest University of Technology and Economics, Hungary. This project integrates post-quantum algorithms into the OpenSSL library. It currently integrates three algorithms:
+This is an open source student project at the Budapest University of Technology and Economics, Hungary and is free to use for everyone. This project integrates post-quantum algorithms into the OpenSSL library. Tested on 1.1.1-stable and 3.0.0-dev OpenSSL. This project currently integrates three algorithms:
 * Falcon
 * LUOV
 * GeMSS
-It is an open source project and free to use for everyone. Tested on 1.1.1-stable and 3.0.0-dev OpenSSL
-
 ## Technologies
 ***
 A list of technologies used within the project:
