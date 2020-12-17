@@ -4,13 +4,13 @@
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
-4. [How to use](#howtouse)
+4. [How to use](#how-to-use)
 5. [License](#license)
 ### General Info
 ***
 This is an open source student project at the Budapest University of Technology and Economics, Hungary and is free to use for everyone. This project integrates post-quantum algorithms into the OpenSSL library. Tested on 1.1.1-stable and 3.0.0-dev OpenSSL. This project currently integrates three algorithms:
 * Falcon (https://falcon-sign.info/)
-* LUOV (https://www.esat.kuleuven.be/cosic/pqcrypto/luov/) git: https://github.com/WardBeullens/LUOV
+* LUOV (https://www.esat.kuleuven.be/cosic/pqcrypto/luov/) git: (https://github.com/WardBeullens/LUOV)
 * GeMSS (https://www-polsys.lip6.fr/Links/NIST/GeMSS.html)
 ## Technologies
 ***
@@ -51,5 +51,5 @@ FALCON_verify(...)
 etc.
 ```
 ## License
-
-[LICENSE](https://github.com/CrySyS/post-quantum-signature-integration-to-OpenSSL/blob/main/LICENSE)
+***
+See [LICENSE](https://github.com/CrySyS/post-quantum-signature-integration-to-OpenSSL/blob/main/LICENSE)
