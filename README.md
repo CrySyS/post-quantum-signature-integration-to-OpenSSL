@@ -52,4 +52,4 @@ etc.
 ```
 ## License
 
-LICENSE
+[LICENSE](https://github.com/CrySyS/post-quantum-signature-integration-to-OpenSSL/blob/main/LICENSE)
