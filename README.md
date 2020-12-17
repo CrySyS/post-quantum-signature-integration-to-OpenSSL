@@ -5,6 +5,7 @@
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [How to use](#howtouse)
+5. [License](#license)
 ### General Info
 ***
 This is an open source student project at the Budapest University of Technology and Economics, Hungary and is free to use for everyone. This project integrates post-quantum algorithms into the OpenSSL library. Tested on 1.1.1-stable and 3.0.0-dev OpenSSL. This project currently integrates three algorithms:
@@ -49,3 +50,6 @@ FALCON_sign(...)
 FALCON_verify(...)
 etc.
 ```
+## License
+
+LICENSE
