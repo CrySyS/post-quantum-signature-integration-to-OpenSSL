@@ -1,0 +1,19 @@
+LIBS=../../libcrypto
+
+SOURCE[../../libcrypto]=gemss_lib.c gemss_crpt.c  \
+        gemss_meth.c gemss_sign.c gemss_sign_keypairHFE.c gemss_sign_openHFE.c \
+	gemss_signHFE.c gemss_genSecretMQS_gf2.c gemss_changeVariablesMQS_gf2.c \
+	gemss_chooseRootHFE_gf2nx.c gemss_conv_gf2nx.c gemss_convMQ_gf2.c \
+	gemss_convMQS_gf2.c gemss_determinantn_gf2.c gemss_determinantnv_gf2.c \
+	gemss_div_gf2nx.c gemss_dotProduct_gf2n.c gemss_evalMQnocst_gf2.c \
+	gemss_evalMQShybrid_gf2.c gemss_evalMQSnocst8_gf2.c gemss_evalMQSnocst8_quo_gf2.c \
+	gemss_evalMQSv_gf2.c gemss_findRoots_gf2nx.c gemss_findRootsSplit_gf2nx.c \
+	gemss_frobeniusMap_gf2nx.c gemss_gcd_gf2nx.c gemss_genCanonicalBasis_gf2n.c \
+	gemss_hash.c gemss_initListDifferences_gf2nx.c gemss_initMatrixId_gf2.c \
+	gemss_inv_gf2n.c gemss_invMatrixnv_gf2.c gemss_KAT_int.c gemss_mixEquationsMQS_gf2.c \
+	gemss_mul_gf2n.c gemss_mul_gf2x.c gemss_predicate.c gemss_rand_gf2nx.c \
+	gemss_randMatrix_gf2.c gemss_randombytes_FIPS.c gemss_rem_gf2n.c \
+	gemss_rng.c gemss_sort_gf2n.c gemss_sqr_gf2n.c gemss_sqr_gf2nx.c \
+	gemss_sqr_gf2x.c gemss_vecMatProduct_gf2.c gemss_invMatrixn_gf2.c \
+	KeccakSpongeWidth1600.c KeccakHash.c KeccakP-1600-opt64.c
+

@@ -1,0 +1,6 @@
+LIBS=../../libcrypto
+
+SOURCE[../../libcrypto]=luov_intermediateValues.c luov_F47Field.c luov_F79Field.c  \
+	luov_LinearAlgebra.c luov_chacha.c luov_Column.c luov_buffer.c  \
+	luov_F61Field.c luov_meth.c luov.c luov_prng.c  \
+	luov_crpt.c luov_lib.c luov_rng.c luov_F7Field.c 

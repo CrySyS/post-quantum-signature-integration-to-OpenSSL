@@ -1,0 +1,6 @@
+LIBS=../../libcrypto
+
+SOURCE[../../libcrypto]=falcon.c falcon_crpt.c  \
+        falcon_keygen.c falcon_lib.c falcon_sign.c \
+        falcon_vrfy.c falcon_codec.c falcon_common.c falcon_fft.c \
+	falcon_fpr.c falcon_meth.c falcon_rng.c falcon_shake.c 

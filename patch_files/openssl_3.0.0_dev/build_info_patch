@@ -1,0 +1,11 @@
+--- build_orig_dev.info	2020-10-04 04:23:03.000000000 -0700
++++ build_mod_dev.info	2020-10-13 07:16:17.779638480 -0700
+@@ -4,7 +4,7 @@
+         txt_db pkcs7 pkcs12 ui kdf store property \
+         md2 md4 md5 sha mdc2 hmac ripemd whrlpool poly1305 \
+         siphash sm3 des aes rc2 rc4 rc5 idea aria bf cast camellia \
+-        seed sm4 chacha modes bn ec rsa dsa dh sm2 dso engine \
++        seed sm4 chacha modes bn ec rsa falcon luov gemss dsa dh sm2 dso engine \
+         err comp http ocsp cms ts srp cmac ct async ess crmf cmp encode_decode \
+         ffc
+ 
