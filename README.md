@@ -8,9 +8,9 @@
 ### General Info
 ***
 This is an open source student project at the Budapest University of Technology and Economics, Hungary and is free to use for everyone. This project integrates post-quantum algorithms into the OpenSSL library. Tested on 1.1.1-stable and 3.0.0-dev OpenSSL. This project currently integrates three algorithms:
-* Falcon
-* LUOV
-* GeMSS
+* Falcon (https://falcon-sign.info/)
+* LUOV (https://www.esat.kuleuven.be/cosic/pqcrypto/luov/) git: https://github.com/WardBeullens/LUOV
+* GeMSS (https://www-polsys.lip6.fr/Links/NIST/GeMSS.html)
 ## Technologies
 ***
 A list of technologies used within the project:
